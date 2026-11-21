@@ -1,0 +1,69 @@
+:root {
+  /* Brand Theme: Ayurveda & Legal Research */
+  --primary: #174C3C;
+  --primary-hover: #113B2E;
+  --primary-light: #EEF5F1;
+  --secondary: #789B83;
+  --secondary-light: #F2F6F3;
+  --bg: #F7F5ED;
+  --surface: #FFFFFF;
+  --accent: #C77B57;
+  --accent-light: #FDF3EE;
+  --highlight: #E7C98B;
+  --highlight-light: #FBF6E9;
+  --text-main: #26352F;
+  --text-muted: #718078;
+  --border: #DCE5E0;
+  --border-subtle: #EBF0ED;
+  --shadow-sm: 0 2px 8px rgba(23, 76, 60, 0.05);
+  --shadow-md: 0 8px 24px rgba(23, 76, 60, 0.08);
+  --shadow-lg: 0 16px 48px rgba(23, 76, 60, 0.12);
+
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --heading: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-main);
+  background-color: var(--bg);
+  color-scheme: light;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}

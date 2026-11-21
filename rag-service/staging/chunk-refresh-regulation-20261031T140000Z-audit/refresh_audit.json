@@ -1,0 +1,1562 @@
+{
+  "created_utc": "2026-10-31T14:00:00Z",
+  "candidate_path": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\chunk-refresh-regulation-20261031T140000Z-audit\\chunks.candidate.json",
+  "candidate_sha256": "efd89919dde975cf0427152d7d62d06c1c5b2e513dd9d3073ced72449c7a2a76",
+  "candidate_count": 1322,
+  "input_hashes": {
+    "canonical_chunks_sha256": "42e8a14c1f97eac89e6028fd663d5d2e9d3ca37dce88f19d008764eca1d31c63",
+    "extracted_documents_sha256": "f46e18e5e04d6ba558e15ad81193c4d5a72ab7c944389eb457ce115216c01268",
+    "previous_candidate_sha256": "e0693b7e6f31ce9e562e46283958c01ed6fcada02cb98f8036c81f48c75e0cb1"
+  },
+  "generation": {
+    "entry_points": "load_extracted_documents() -> process_documents() -> write_chunks(candidate_path)",
+    "documents_processed": 19,
+    "warnings": [
+      "tkdl_background_2021.pdf: no top-level provisions detected; text retained as general chunks"
+    ],
+    "counts_by_jurisdiction": {
+      "India": 926,
+      "International": 396
+    },
+    "counts_by_provision_type": {
+      "None": 136,
+      "section": 658,
+      "regulation": 22,
+      "rule": 145,
+      "article": 361
+    },
+    "counts_by_content_type": {
+      "general": 52,
+      "provision": 1186,
+      "contents": 30,
+      "schedule": 54
+    }
+  },
+  "previous_candidate_comparison": {
+    "added_ids": [],
+    "removed_ids": [],
+    "changed_records": [
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0001",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0002",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0003",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0004",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0005",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0006",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0007",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0008",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0009",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0011",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0012",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0013",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0014",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0015",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0016",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0017",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0018",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0019",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0020",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0021",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0022",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0023",
+        "fields": [
+          "provision_type"
+        ],
+        "old_provision_type": "section",
+        "new_provision_type": "regulation"
+      }
+    ],
+    "all_text_and_order_unchanged": true,
+    "changed_fssai_record_metadata": [
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0001",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "1",
+        "provision_title": null,
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          1,
+          2
+        ],
+        "page_start": 1,
+        "page_end": 2
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0002",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "2",
+        "provision_title": "पररभाषाएाँ",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          2,
+          3
+        ],
+        "page_start": 2,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0003",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "5",
+        "provision_title": "संिूषक: इन जवजनयमों में िाजमल उत् पाि इन जवजनयमों का अनुसूची ‘ो में जवजहत सुरक्षा अपेक्षां क े अनुरूप हो।",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0004",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "6",
+        "provision_title": "पैक े डिंग : आयुवेि आहार खाद्य सुरक्षा और मानक (पैक े डिंग) जवजनयम, 2018 क े अनुरूप हो।",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0005",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "7",
+        "provision_title": "आयुवेि आहार क े जवक्रय , जवजनमा ण आदि पर प्रजतबन्ध: कोई व् यजि इन जवजनयमों में अजधकजपत अपेक्षां क े प्रजत",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0006",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "8",
+        "provision_title": "मानव रोग आदि क े उपचार का िावे नहं करेगा: लेबडलंग, प्रस्ट् तुतीकरण और जवञापापन में यह िावा न दकया िाए दक",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0007",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "10",
+        "provision_title": "आयुवेि आहार का पूव अनुमोिन: जिस आयुवेि आहार क े जलए इन जवजनयमों का अनुसूची ‘ख’ क े अनुसार अनुमोिन",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0008",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "11",
+        "provision_title": "जविेषञाप सजमजत का गठन: आयुष मंत्रालय ऊपर उप -जवजनयम (क) और (10) में यपा जवजहत िावों और उत् पािों क े",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0009",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "12",
+        "provision_title": "आयुवेि आहार का लेबडलंग : आयुवेि आहार का लेबडलंग खाद्य सुरक्षा और मानक (लेबडलंग और प्रिि ) जवजनयम ,",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0011",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "1",
+        "provision_title": null,
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          15
+        ],
+        "page_start": 15,
+        "page_end": 15
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0012",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "2",
+        "provision_title": "Definitions.- (a) “Act” means the Food Safety and Standards Act, 2006 (34 of 2006)",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          15
+        ],
+        "page_start": 15,
+        "page_end": 15
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0013",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "3",
+        "provision_title": "General requirements.- (1) Food Business Operators shall formulate Ayurveda Aahara in accordance",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          15,
+          16
+        ],
+        "page_start": 15,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0014",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "4",
+        "provision_title": "Additives.- The products covered under these regulations shall contain only food additives as",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0015",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "5",
+        "provision_title": "Contaminants.- The products cover ed under these regulations shall conform to the safety",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0016",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "6",
+        "provision_title": "Packaging.- Ayurveda Aahara shall conform to the Food Safety and Standards (Packaging)",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0017",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "7",
+        "provision_title": "Restriction on sale, manufacture, et c. of Aurveda Ahara. - No person shall manufacture, pack,",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0018",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "8",
+        "provision_title": "Not to claim treating human disease, etc. .- The labelling, presentation and advertisement shall not",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0019",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "9",
+        "provision_title": "Claim by Food Business Operator.- (1) Food Business Operator shall make claims in accordance",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0020",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "10",
+        "provision_title": "Prior approval for Ayurveda Aahara . - If Ayurveda Aahara need prior approval as per Schedule",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0021",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "11",
+        "provision_title": "Constitution of Expert committee. - The Food Safety and Standards Authority of India shall",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0022",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "12",
+        "provision_title": "Labelling of Ayurveda Aahara .- The labelling of Ayurveda Aahara shall be in accordance wi th",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0023",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "13",
+        "provision_title": "Other requirement for Ayurveda Aahara .- Every label of Ayurveda Aahara shall specify the",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      }
+    ]
+  },
+  "canonical_comparison": {
+    "old_count": 1349,
+    "new_count": 1322,
+    "added_count": 156,
+    "removed_count": 183,
+    "changed_same_id_count": 1081,
+    "added_ids": [
+      "india:national/biological_diversity_act_2002#chunk-0064",
+      "india:national/biological_diversity_act_2002#chunk-0065",
+      "india:national/biological_diversity_act_2002#chunk-0066",
+      "india:national/biological_diversity_act_2002#chunk-0067",
+      "india:national/biological_diversity_act_2002#chunk-0068",
+      "india:national/biological_diversity_act_2002#chunk-0069",
+      "india:national/biological_diversity_act_2002#chunk-0070",
+      "india:national/biological_diversity_act_2002#chunk-0071",
+      "india:national/biological_diversity_act_2002#chunk-0072",
+      "india:national/biological_diversity_act_2002#chunk-0073",
+      "india:national/biological_diversity_act_2002#chunk-0074",
+      "india:national/biological_diversity_amendment_2023#chunk-0045",
+      "india:national/biological_diversity_amendment_2023#chunk-0046",
+      "india:national/designs_act#chunk-0049",
+      "india:national/designs_act#chunk-0050",
+      "india:national/drugs_magic_remedies_act#chunk-0019",
+      "india:national/drugs_magic_remedies_act#chunk-0020",
+      "india:national/drugs_magic_remedies_act#chunk-0021",
+      "india:national/drugs_magic_remedies_act#chunk-0022",
+      "india:national/drugs_magic_remedies_act#chunk-0023",
+      "india:national/drugs_magic_remedies_act#chunk-0024",
+      "india:national/gi_act#chunk-0086",
+      "india:national/gi_act#chunk-0087",
+      "india:national/gi_act#chunk-0088",
+      "india:national/gi_act#chunk-0089",
+      "india:national/gi_act#chunk-0090",
+      "india:national/gi_act#chunk-0091",
+      "india:national/gi_act#chunk-0092",
+      "india:national/patent-rules-2024#chunk-0075",
+      "india:national/patent-rules-2024#chunk-0076",
+      "india:national/patent-rules-2024#chunk-0077",
+      "india:national/patent-rules-2024#chunk-0078",
+      "india:national/patent-rules-2024#chunk-0079",
+      "india:national/patent-rules-2024#chunk-0080",
+      "india:national/patent-rules-2024#chunk-0081",
+      "india:national/patent-rules-2024#chunk-0082",
+      "india:national/patent-rules-2024#chunk-0083",
+      "india:national/patent-rules-2024#chunk-0084",
+      "india:national/patent-rules-2024#chunk-0085",
+      "india:national/patent-rules-2024#chunk-0086",
+      "india:national/patent-rules-2024#chunk-0087",
+      "india:national/patent-rules-2024#chunk-0088",
+      "india:national/patent-rules-2024#chunk-0089",
+      "india:national/patent-rules-2024#chunk-0090",
+      "india:national/patent-rules-2024#chunk-0091",
+      "india:national/patent-rules-2024#chunk-0092",
+      "india:national/patent-rules-2024#chunk-0093",
+      "india:national/patent-rules-2024#chunk-0094",
+      "india:national/patent-rules-2024#chunk-0095",
+      "india:national/patent-rules-2024#chunk-0096",
+      "india:national/patent-rules-2024#chunk-0097",
+      "india:national/patent-rules-2024#chunk-0098",
+      "india:national/patent-rules-2024#chunk-0099",
+      "india:national/patent-rules-2024#chunk-0100",
+      "india:national/patent-rules-2024#chunk-0101",
+      "india:national/patent-rules-2024#chunk-0102",
+      "india:national/patent-rules-2024#chunk-0103",
+      "india:national/patent-rules-2024#chunk-0104",
+      "india:national/patent-rules-2024#chunk-0105",
+      "india:national/patent-rules-2024#chunk-0106",
+      "india:national/patent-rules-2024#chunk-0107",
+      "india:national/patent-rules-2024#chunk-0108",
+      "india:national/patent-rules-2024#chunk-0109",
+      "india:national/patent-rules-2024#chunk-0110",
+      "india:national/patent-rules-2024#chunk-0111",
+      "india:national/patent-rules-2024#chunk-0112",
+      "india:national/patent-rules-2024#chunk-0113",
+      "india:national/patent-rules-2024#chunk-0114",
+      "india:national/patent-rules-2024#chunk-0115",
+      "india:national/patent-rules-2024#chunk-0116",
+      "india:national/patent-rules-2024#chunk-0117",
+      "india:national/patent-rules-2024#chunk-0118",
+      "india:national/patent-rules-2024#chunk-0119",
+      "india:national/patent-rules-2024#chunk-0120",
+      "india:national/patent-rules-2024#chunk-0121",
+      "india:national/patent-rules-2024#chunk-0122",
+      "india:national/patent-rules-2024#chunk-0123",
+      "india:national/patent-rules-2024#chunk-0124",
+      "india:national/patent-rules-2024#chunk-0125",
+      "india:national/patent-rules-2024#chunk-0126",
+      "india:national/patent-rules-2024#chunk-0127",
+      "india:national/patent-rules-2024#chunk-0128",
+      "india:national/patent-rules-2024#chunk-0129",
+      "india:national/patent-rules-2024#chunk-0130",
+      "india:national/patent-rules-2024#chunk-0131",
+      "india:national/patent-rules-2024#chunk-0132",
+      "india:national/patent-rules-2024#chunk-0133",
+      "india:national/patent-rules-2024#chunk-0134",
+      "india:national/patent-rules-2024#chunk-0135",
+      "india:national/patent-rules-2024#chunk-0136",
+      "india:national/patent-rules-2024#chunk-0137",
+      "india:national/patent-rules-2024#chunk-0138",
+      "india:national/patent-rules-2024#chunk-0139",
+      "india:national/patent-rules-2024#chunk-0140",
+      "india:national/patent-rules-2024#chunk-0141",
+      "india:national/patent-rules-2024#chunk-0142",
+      "india:national/patent-rules-2024#chunk-0143",
+      "india:national/patent-rules-2024#chunk-0144",
+      "india:national/patent-rules-2024#chunk-0145",
+      "india:national/patent-rules-2024#chunk-0146",
+      "india:national/patent-rules-2024#chunk-0147",
+      "india:national/patent-rules-2024#chunk-0148",
+      "india:national/patent-rules-2024#chunk-0149",
+      "india:national/patent-rules-2024#chunk-0150",
+      "india:national/patent-rules-2024#chunk-0151",
+      "india:national/patent-rules-2024#chunk-0152",
+      "india:national/patent-rules-2024#chunk-0153",
+      "india:national/patent-rules-2024#chunk-0154",
+      "india:national/patent-rules-2024#chunk-0155",
+      "india:national/patent-rules-2024#chunk-0156",
+      "india:national/patent-rules-2024#chunk-0157",
+      "india:national/patent-rules-2024#chunk-0158",
+      "india:national/patent-rules-2024#chunk-0159",
+      "india:national/patent-rules-2024#chunk-0160",
+      "india:national/patent-rules-2024#chunk-0161",
+      "india:national/patent-rules-2024#chunk-0162",
+      "india:national/patent-rules-2024#chunk-0163",
+      "india:national/patent-rules-2024#chunk-0164",
+      "india:national/patent-rules-2024#chunk-0165",
+      "india:national/patent-rules-2024#chunk-0166",
+      "india:national/patent-rules-2024#chunk-0167",
+      "india:national/patent-rules-2024#chunk-0168",
+      "india:national/patent-rules-2024#chunk-0169",
+      "india:national/patent-rules-2024#chunk-0170",
+      "india:national/patent-rules-2024#chunk-0171",
+      "india:national/patent-rules-2024#chunk-0172",
+      "india:national/patent-rules-2024#chunk-0173",
+      "india:national/patent-rules-2024#chunk-0174",
+      "india:national/patent-rules-2024#chunk-0175",
+      "india:national/patent_act_2024#chunk-0164",
+      "india:national/patent_act_2024#chunk-0165",
+      "india:national/trademarks_act#chunk-0142",
+      "india:national/trademarks_act#chunk-0143",
+      "international:international/budapest_treaty#chunk-0023",
+      "international:international/cbd#chunk-0067",
+      "international:international/cbd#chunk-0068",
+      "international:international/cbd#chunk-0069",
+      "international:international/cbd#chunk-0070",
+      "international:international/cbd#chunk-0071",
+      "international:international/hague_agreement#chunk-0040",
+      "international:international/madrid_protocol#chunk-0035",
+      "international:international/nagoya-protocol#chunk-0037",
+      "international:international/pct#chunk-0074",
+      "international:international/pct#chunk-0075",
+      "international:international/trips_agreement#chunk-0073",
+      "international:international/trips_agreement#chunk-0074",
+      "international:international/trips_agreement#chunk-0075",
+      "international:international/trips_agreement#chunk-0076",
+      "international:international/trips_agreement#chunk-0077",
+      "international:international/trips_agreement#chunk-0078",
+      "international:international/trips_agreement#chunk-0079",
+      "international:international/trips_agreement#chunk-0080",
+      "international:international/trips_agreement#chunk-0081",
+      "international:international/trips_agreement#chunk-0082",
+      "international:international/trips_agreement#chunk-0083",
+      "international:international/wipo_gratk_treaty_2024#chunk-0024"
+    ],
+    "removed_ids": [
+      "india:national/drugs_cosmetics_act#chunk-0102",
+      "india:national/drugs_cosmetics_act#chunk-0103",
+      "india:national/drugs_cosmetics_act#chunk-0104",
+      "india:national/drugs_cosmetics_act#chunk-0105",
+      "india:national/drugs_cosmetics_act#chunk-0106",
+      "india:national/drugs_cosmetics_act#chunk-0107",
+      "india:national/drugs_cosmetics_act#chunk-0108",
+      "india:national/drugs_cosmetics_act#chunk-0109",
+      "india:national/drugs_cosmetics_act#chunk-0110",
+      "india:national/drugs_cosmetics_act#chunk-0111",
+      "india:national/drugs_cosmetics_act#chunk-0112",
+      "india:national/drugs_cosmetics_act#chunk-0113",
+      "india:national/drugs_cosmetics_act#chunk-0114",
+      "india:national/drugs_cosmetics_act#chunk-0115",
+      "india:national/drugs_cosmetics_act#chunk-0116",
+      "india:national/drugs_cosmetics_act#chunk-0117",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0046",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0047",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0048",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0049",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0050",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0051",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0052",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0053",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0054",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0055",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0056",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0057",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0058",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0059",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0060",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0061",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0062",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0063",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0064",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0065",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0066",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0067",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0068",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0069",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0070",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0071",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0072",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0073",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0074",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0075",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0076",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0077",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0078",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0079",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0080",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0081",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0082",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0083",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0084",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0085",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0086",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0087",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0088",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0089",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0090",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0091",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0092",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0093",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0094",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0095",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0096",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0097",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0098",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0099",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0100",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0101",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0102",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0103",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0104",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0105",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0106",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0107",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0108",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0109",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0110",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0111",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0112",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0113",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0114",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0115",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0116",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0117",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0118",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0119",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0120",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0121",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0122",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0123",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0124",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0125",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0126",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0127",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0128",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0129",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0130",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0131",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0132",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0133",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0134",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0135",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0136",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0137",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0138",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0139",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0140",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0141",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0142",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0143",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0144",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0145",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0146",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0147",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0148",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0149",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0150",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0151",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0152",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0153",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0154",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0155",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0156",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0157",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0158",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0159",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0160",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0161",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0162",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0163",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0164",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0165",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0166",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0167",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0168",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0169",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0170",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0171",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0172",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0173",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0174",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0175",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0176",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0177",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0178",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0179",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0180",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0181",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0182",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0183",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0184",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0185",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0186",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0187",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0188",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0189",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0190",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0191",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0192",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0193",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0194",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0195",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0196",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0197",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0198",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0199",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0200",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0201",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0202",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0203",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0204",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0205",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0206",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0207",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0208",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0209",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0210",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0211",
+      "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0212"
+    ],
+    "per_document_counts": [
+      {
+        "document_id": "india:national/biological_diversity_act_2002",
+        "old_chunks": 64,
+        "new_chunks": 75,
+        "delta": 11
+      },
+      {
+        "document_id": "india:national/biological_diversity_amendment_2023",
+        "old_chunks": 45,
+        "new_chunks": 47,
+        "delta": 2
+      },
+      {
+        "document_id": "india:national/designs_act",
+        "old_chunks": 49,
+        "new_chunks": 51,
+        "delta": 2
+      },
+      {
+        "document_id": "india:national/drugs_cosmetics_act",
+        "old_chunks": 118,
+        "new_chunks": 102,
+        "delta": -16
+      },
+      {
+        "document_id": "india:national/drugs_magic_remedies_act",
+        "old_chunks": 19,
+        "new_chunks": 25,
+        "delta": 6
+      },
+      {
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "old_chunks": 213,
+        "new_chunks": 46,
+        "delta": -167
+      },
+      {
+        "document_id": "india:national/gi_act",
+        "old_chunks": 86,
+        "new_chunks": 93,
+        "delta": 7
+      },
+      {
+        "document_id": "india:national/patent-rules-2024",
+        "old_chunks": 75,
+        "new_chunks": 176,
+        "delta": 101
+      },
+      {
+        "document_id": "india:national/patent_act_2024",
+        "old_chunks": 164,
+        "new_chunks": 166,
+        "delta": 2
+      },
+      {
+        "document_id": "india:national/tkdl_background_2021",
+        "old_chunks": 1,
+        "new_chunks": 1,
+        "delta": 0
+      },
+      {
+        "document_id": "india:national/trademarks_act",
+        "old_chunks": 142,
+        "new_chunks": 144,
+        "delta": 2
+      },
+      {
+        "document_id": "international:international/budapest_treaty",
+        "old_chunks": 23,
+        "new_chunks": 24,
+        "delta": 1
+      },
+      {
+        "document_id": "international:international/cbd",
+        "old_chunks": 67,
+        "new_chunks": 72,
+        "delta": 5
+      },
+      {
+        "document_id": "international:international/hague_agreement",
+        "old_chunks": 40,
+        "new_chunks": 41,
+        "delta": 1
+      },
+      {
+        "document_id": "international:international/madrid_protocol",
+        "old_chunks": 35,
+        "new_chunks": 36,
+        "delta": 1
+      },
+      {
+        "document_id": "international:international/nagoya-protocol",
+        "old_chunks": 37,
+        "new_chunks": 38,
+        "delta": 1
+      },
+      {
+        "document_id": "international:international/pct",
+        "old_chunks": 74,
+        "new_chunks": 76,
+        "delta": 2
+      },
+      {
+        "document_id": "international:international/trips_agreement",
+        "old_chunks": 73,
+        "new_chunks": 84,
+        "delta": 11
+      },
+      {
+        "document_id": "international:international/wipo_gratk_treaty_2024",
+        "old_chunks": 24,
+        "new_chunks": 25,
+        "delta": 1
+      }
+    ]
+  },
+  "text_integrity": {
+    "basis": "Previous candidate passed page-level normalized line order comparisons for all 660 pages and normalized token occurrence comparison had zero missing/extra occurrences. This candidate is checked for exact text equality and order against that candidate because parser chunking is unchanged.",
+    "previous_candidate_page_lines_all_equal": true,
+    "previous_candidate_token_delta": {
+      "missing": 0,
+      "extra": 0,
+      "missing_examples": [],
+      "extra_examples": []
+    },
+    "new_candidate_text_equals_previous_by_chunk_id": true,
+    "all_19_documents_represented": true,
+    "page_range_failures": [],
+    "contents_or_schedule_with_provision_metadata": []
+  },
+  "required_records": {
+    "biodiversity_section_7": [
+      {
+        "chunk_id": "india:national/biological_diversity_act_2002#chunk-0007",
+        "document_id": "india:national/biological_diversity_act_2002",
+        "document_name": "Biological Diversity Act 2002",
+        "filename": "biological_diversity_act_2002.pdf",
+        "jurisdiction": "India",
+        "provision_type": "section",
+        "provision_number": "7",
+        "provision_title": "Prior intimation to State Biodiversity Board for accessing biological resource for certain purposes",
+        "chapter_or_part": "CHAPTER II REGULATION OF ACCESS TO BIOLOGICAL 1[RESOURCES]",
+        "content_type": "provision",
+        "source_pages": [
+          7,
+          8
+        ],
+        "page_start": 7,
+        "page_end": 8
+      }
+    ],
+    "patent_rule_82": [
+      {
+        "chunk_id": "india:national/patent-rules-2024#chunk-0086",
+        "document_id": "india:national/patent-rules-2024",
+        "document_name": "Patent Rules 2024",
+        "filename": "patent-rules-2024.pdf",
+        "jurisdiction": "India",
+        "provision_type": "rule",
+        "provision_number": "82",
+        "provision_title": "Preparation of amended specifications, etc",
+        "chapter_or_part": "CHAPTER IX AMENDMENT OF APPLICATION, SPECIFICATION OR ANY DOCUMENT",
+        "content_type": "provision",
+        "source_pages": [
+          52
+        ],
+        "page_start": 52,
+        "page_end": 52
+      }
+    ],
+    "patent_rule_116": [
+      {
+        "chunk_id": "india:national/patent-rules-2024#chunk-0121",
+        "document_id": "india:national/patent-rules-2024",
+        "document_name": "Patent Rules 2024",
+        "filename": "patent-rules-2024.pdf",
+        "jurisdiction": "India",
+        "provision_type": "rule",
+        "provision_number": "116",
+        "provision_title": "Removal of a name from the register of patent agents",
+        "chapter_or_part": "CHAPTER XV PATENT AGENTS",
+        "content_type": "provision",
+        "source_pages": [
+          66,
+          67
+        ],
+        "page_start": 66,
+        "page_end": 67
+      }
+    ],
+    "cbd_article_6_main": [
+      {
+        "chunk_id": "international:international/cbd#chunk-0008",
+        "document_id": "international:international/cbd",
+        "document_name": "Cbd",
+        "filename": "cbd.pdf",
+        "jurisdiction": "International",
+        "provision_type": "article",
+        "provision_number": "6",
+        "provision_title": "general Measures for Conservation",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      }
+    ]
+  },
+  "fssai": {
+    "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+    "body_provision_count": 22,
+    "body_all_regulation": true,
+    "body_records": [
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0001",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "1",
+        "provision_title": null,
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          1,
+          2
+        ],
+        "page_start": 1,
+        "page_end": 2
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0002",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "2",
+        "provision_title": "पररभाषाएाँ",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          2,
+          3
+        ],
+        "page_start": 2,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0003",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "5",
+        "provision_title": "संिूषक: इन जवजनयमों में िाजमल उत् पाि इन जवजनयमों का अनुसूची ‘ो में जवजहत सुरक्षा अपेक्षां क े अनुरूप हो।",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0004",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "6",
+        "provision_title": "पैक े डिंग : आयुवेि आहार खाद्य सुरक्षा और मानक (पैक े डिंग) जवजनयम, 2018 क े अनुरूप हो।",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0005",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "7",
+        "provision_title": "आयुवेि आहार क े जवक्रय , जवजनमा ण आदि पर प्रजतबन्ध: कोई व् यजि इन जवजनयमों में अजधकजपत अपेक्षां क े प्रजत",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0006",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "8",
+        "provision_title": "मानव रोग आदि क े उपचार का िावे नहं करेगा: लेबडलंग, प्रस्ट् तुतीकरण और जवञापापन में यह िावा न दकया िाए दक",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0007",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "10",
+        "provision_title": "आयुवेि आहार का पूव अनुमोिन: जिस आयुवेि आहार क े जलए इन जवजनयमों का अनुसूची ‘ख’ क े अनुसार अनुमोिन",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0008",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "11",
+        "provision_title": "जविेषञाप सजमजत का गठन: आयुष मंत्रालय ऊपर उप -जवजनयम (क) और (10) में यपा जवजहत िावों और उत् पािों क े",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0009",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "12",
+        "provision_title": "आयुवेि आहार का लेबडलंग : आयुवेि आहार का लेबडलंग खाद्य सुरक्षा और मानक (लेबडलंग और प्रिि ) जवजनयम ,",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0011",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "1",
+        "provision_title": null,
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          15
+        ],
+        "page_start": 15,
+        "page_end": 15
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0012",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "2",
+        "provision_title": "Definitions.- (a) “Act” means the Food Safety and Standards Act, 2006 (34 of 2006)",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          15
+        ],
+        "page_start": 15,
+        "page_end": 15
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0013",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "3",
+        "provision_title": "General requirements.- (1) Food Business Operators shall formulate Ayurveda Aahara in accordance",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          15,
+          16
+        ],
+        "page_start": 15,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0014",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "4",
+        "provision_title": "Additives.- The products covered under these regulations shall contain only food additives as",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0015",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "5",
+        "provision_title": "Contaminants.- The products cover ed under these regulations shall conform to the safety",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0016",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "6",
+        "provision_title": "Packaging.- Ayurveda Aahara shall conform to the Food Safety and Standards (Packaging)",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0017",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "7",
+        "provision_title": "Restriction on sale, manufacture, et c. of Aurveda Ahara. - No person shall manufacture, pack,",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0018",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "8",
+        "provision_title": "Not to claim treating human disease, etc. .- The labelling, presentation and advertisement shall not",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0019",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "9",
+        "provision_title": "Claim by Food Business Operator.- (1) Food Business Operator shall make claims in accordance",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0020",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "10",
+        "provision_title": "Prior approval for Ayurveda Aahara . - If Ayurveda Aahara need prior approval as per Schedule",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0021",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "11",
+        "provision_title": "Constitution of Expert committee. - The Food Safety and Standards Authority of India shall",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0022",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "12",
+        "provision_title": "Labelling of Ayurveda Aahara .- The labelling of Ayurveda Aahara shall be in accordance wi th",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      {
+        "chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0023",
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "filename": "fssai_ayurveda_aahara_regulations_2022.pdf",
+        "jurisdiction": "India",
+        "provision_type": "regulation",
+        "provision_number": "13",
+        "provision_title": "Other requirement for Ayurveda Aahara .- Every label of Ayurveda Aahara shall specify the",
+        "chapter_or_part": null,
+        "content_type": "provision",
+        "source_pages": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      }
+    ],
+    "content_type_counts": {
+      "general": 2,
+      "provision": 22,
+      "schedule": 22
+    },
+    "schedule_records_without_provision_metadata": true
+  },
+  "patents_act_title": "The Patents Act, 1970",
+  "nul_audit": {
+    "total_count": 6,
+    "affected_chunks": [
+      {
+        "document_id": "india:national/tkdl_background_2021",
+        "chunk_index": 0,
+        "chunk_id": "india:national/tkdl_background_2021#chunk-0000",
+        "count": 6
+      }
+    ],
+    "sanitization_for_future_index_payload_only": "Remove U+0000 only from outbound Chroma document text using text.replace(\"\\u0000\", \"\"); preserve canonical candidate text."
+  },
+  "index_status": "No Chroma database or index was opened, built, or modified."
+}

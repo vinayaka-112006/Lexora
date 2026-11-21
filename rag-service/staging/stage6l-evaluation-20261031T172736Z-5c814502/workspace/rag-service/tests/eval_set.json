@@ -1,0 +1,855 @@
+{
+  "description": "Stage 6A evaluation items. Expected targets use exact metadata from chunks.json.",
+  "source_of_truth": "rag-service/data/chunks.json",
+  "items": [
+    {
+      "id": "eval_001",
+      "category": "definitions",
+      "query": "How does the Patents Act define an invention and related patent terms?",
+      "jurisdiction": "India",
+      "intent": "definition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "2",
+          "provision_title": "Definitions and interpretation"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_002",
+      "category": "definitions",
+      "query": "For biodiversity research in India, how does the Act define biological resources?",
+      "jurisdiction": "India",
+      "intent": "definition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "2",
+          "provision_title": "Definitions"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_003",
+      "category": "definitions",
+      "query": "How does Indian law define a magic remedy or related terms used in drug advertisements?",
+      "jurisdiction": "India",
+      "intent": "definition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/drugs_magic_remedies_act",
+          "document_name": "Drugs Magic Remedies Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "2",
+          "provision_title": "Definitions"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_004",
+      "category": "definitions",
+      "query": "What does the Geographical Indications Act mean by a geographical indication?",
+      "jurisdiction": "India",
+      "intent": "definition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/gi_act",
+          "document_name": "Gi Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "2",
+          "provision_title": null
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_005",
+      "category": "patentability",
+      "query": "Which kinds of subject matter are not inventions under Indian patent law?",
+      "jurisdiction": "India",
+      "intent": "prohibition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "3",
+          "provision_title": "What are not inventions"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_006",
+      "category": "patentability",
+      "query": "Can an invention relating to atomic energy be patented in India?",
+      "jurisdiction": "India",
+      "intent": "prohibition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "4",
+          "provision_title": "Inventions relating to atomic energy not patentable"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_007",
+      "category": "patentability",
+      "query": "How does TRIPS describe the subject matter that members must make eligible for patent protection?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "international:international/trips_agreement",
+          "document_name": "Trips Agreement",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "27",
+          "provision_title": "Patentable Subject Matter"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_008",
+      "category": "patent_procedure",
+      "query": "Who is entitled to apply for a patent in India, including an assignee?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "6",
+          "provision_title": "Persons entitled to apply for patents"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_009",
+      "category": "patent_procedure",
+      "query": "What information belongs in a patent specification filed in India?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "10",
+          "provision_title": "Contents of specifications"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_010",
+      "category": "patent_procedure",
+      "query": "What legal effect follows when the Controller grants a patent?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "43",
+          "provision_title": "Grant of patents"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_011",
+      "category": "trademarks",
+      "query": "What grounds could prevent registration of a proposed brand name as a trademark?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/trademarks_act",
+          "document_name": "Trademarks Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "9",
+          "provision_title": null
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_012",
+      "category": "trademarks",
+      "query": "How are conflicting trademark applications or earlier marks considered during registration?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/trademarks_act",
+          "document_name": "Trademarks Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "11",
+          "provision_title": null
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_013",
+      "category": "trademarks",
+      "query": "What happens after a trademark application has been accepted for registration?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/trademarks_act",
+          "document_name": "Trademarks Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "19",
+          "provision_title": "Where after the acceptance of an application for registration of a trade mark"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_014",
+      "category": "geographical_indications",
+      "query": "What makes a product name eligible for protection as a geographical indication?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/gi_act",
+          "document_name": "Gi Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "9",
+          "provision_title": "A geographical indication"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_015",
+      "category": "geographical_indications",
+      "query": "What rights does registration give the authorized users of a geographical indication?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/gi_act",
+          "document_name": "Gi Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "21",
+          "provision_title": null
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_016",
+      "category": "designs",
+      "query": "What features are excluded from the legal definition of a registrable design?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/designs_act",
+          "document_name": "Designs Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "2",
+          "provision_title": "In this Act, unless there is anything repugnant in the subject or"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_017",
+      "category": "designs",
+      "query": "How long does registration of an industrial design protect it under the Designs Act?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/designs_act",
+          "document_name": "Designs Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "11",
+          "provision_title": null
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_018",
+      "category": "biological_diversity",
+      "query": "When must a person obtain approval before accessing biological resources in India?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "3",
+          "provision_title": "Certain persons not to undertake Biodiversity related activities without approval of National"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_019",
+      "category": "biological_diversity",
+      "query": "What approval is required before seeking an intellectual property right based on biological resources?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "6",
+          "provision_title": "Application for intellectual property rights not to be made without approval of National"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_020",
+      "category": "biological_diversity",
+      "query": "How may benefits from using biological resources be shared fairly?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "21",
+          "provision_title": "Determination of 6[fair and equitable] benefit sharing by National Biodiversity Authority"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_021",
+      "category": "traditional_knowledge",
+      "query": "What does the Nagoya Protocol say about access to traditional knowledge associated with genetic resources?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "7",
+          "provision_title": "ACCESS TO TRADITIONAL KNOWLEDGE ASSOCIATED"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_022",
+      "category": "traditional_knowledge",
+      "query": "What role should communities and customary laws have when traditional knowledge is accessed?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "12",
+          "provision_title": "TRADITIONAL KNOWLEDGE ASSOCIATED WITH"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_023",
+      "category": "ayurveda_food_regulatory",
+      "query": "What does the Ayurveda Aahara regulation require for labeling these products?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "12",
+          "provision_title": "Labelling of Ayurveda Aahara .- The labelling of Ayurveda Aahara shall be in accordance wi th"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_024",
+      "category": "ayurveda_food_regulatory",
+      "query": "Can a seller make disease-treatment claims for an Ayurveda Aahara product?",
+      "jurisdiction": "India",
+      "intent": "prohibition",
+      "expected_targets": [
+        {
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "8",
+          "provision_title": "Not to claim treating human disease, etc. .- The labelling, presentation and advertisement shall not"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_025",
+      "category": "international_treaties",
+      "query": "What is the objective of the Nagoya Protocol on access and benefit-sharing?",
+      "jurisdiction": "International",
+      "intent": "purpose",
+      "expected_targets": [
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "1",
+          "provision_title": "OBJECTIVE"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_026",
+      "category": "international_treaties",
+      "query": "How does the Budapest Treaty make deposits of microorganisms recognizable across countries?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "international:international/budapest_treaty",
+          "document_name": "Budapest Treaty",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "3",
+          "provision_title": "Recognition and Effect of the Deposit"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_027",
+      "category": "international_treaties",
+      "query": "What is the effect of an international patent application under the PCT?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "international:international/pct",
+          "document_name": "Pct",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "11",
+          "provision_title": "Filing Date and Effects of the International Application"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_028",
+      "category": "international_treaties",
+      "query": "What effect does an international trademark registration have under the Madrid Protocol?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [
+        {
+          "document_id": "international:international/madrid_protocol",
+          "document_name": "Madrid Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "4",
+          "provision_title": "Effects of International Registration"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_029",
+      "category": "comparisons",
+      "query": "Compare India?s exclusions from patentability with TRIPS rules on patentable subject matter.",
+      "jurisdiction": "all",
+      "intent": "comparison",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "3",
+          "provision_title": "What are not inventions"
+        },
+        {
+          "document_id": "international:international/trips_agreement",
+          "document_name": "Trips Agreement",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "27",
+          "provision_title": "Patentable Subject Matter"
+        }
+      ],
+      "should_abstain": false,
+      "notes": "Related provisions for comparison; no legal equivalence is asserted."
+    },
+    {
+      "id": "eval_030",
+      "category": "comparisons",
+      "query": "How do Indian approval rules for biological resources relate to Nagoya Protocol access and benefit-sharing concepts?",
+      "jurisdiction": "all",
+      "intent": "comparison",
+      "expected_targets": [
+        {
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "6",
+          "provision_title": "Application for intellectual property rights not to be made without approval of National"
+        },
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "6",
+          "provision_title": "ACCESS TO GENETIC RESOURCES"
+        },
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "5",
+          "provision_title": "FAIR AND EQUITABLE BENEFIT-SHARING"
+        }
+      ],
+      "should_abstain": false,
+      "notes": "Compare relevant provisions without assuming identical legal effect."
+    },
+    {
+      "id": "eval_031",
+      "category": "comparisons",
+      "query": "Compare Indian protection criteria for geographical indications with TRIPS protection of GIs.",
+      "jurisdiction": "all",
+      "intent": "comparison",
+      "expected_targets": [
+        {
+          "document_id": "india:national/gi_act",
+          "document_name": "Gi Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "9",
+          "provision_title": "A geographical indication"
+        },
+        {
+          "document_id": "international:international/trips_agreement",
+          "document_name": "Trips Agreement",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "22",
+          "provision_title": "Protection of Geographical Indications"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_032",
+      "category": "comparisons",
+      "query": "How does India?s design protection framework compare with the Hague Agreement?s international registration effects?",
+      "jurisdiction": "all",
+      "intent": "comparison",
+      "expected_targets": [
+        {
+          "document_id": "india:national/designs_act",
+          "document_name": "Designs Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "4",
+          "provision_title": "A design which"
+        },
+        {
+          "document_id": "international:international/hague_agreement",
+          "document_name": "Hague Agreement",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "14",
+          "provision_title": "Effects of the International Registration"
+        }
+      ],
+      "should_abstain": false,
+      "notes": "Targets concern different parts of the systems; no legal equivalence is assumed."
+    },
+    {
+      "id": "eval_033",
+      "category": "explicit_provisions",
+      "query": "What does Section 83 of the Patents Act say about working patents and public needs?",
+      "jurisdiction": "India",
+      "intent": "explicit_provision",
+      "expected_targets": [
+        {
+          "document_id": "india:national/patent_act_2024",
+          "document_name": "Patent Act 2024",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "83",
+          "provision_title": "General principles applicable to working of patented inventions"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_034",
+      "category": "explicit_provisions",
+      "query": "What is the purpose of Article 6 of the Nagoya Protocol on access to genetic resources?",
+      "jurisdiction": "International",
+      "intent": "explicit_provision",
+      "expected_targets": [
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "6",
+          "provision_title": "ACCESS TO GENETIC RESOURCES"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_035",
+      "category": "explicit_provisions",
+      "query": "What does Section 34 of the Trade Marks Act protect when someone has used a mark earlier?",
+      "jurisdiction": "India",
+      "intent": "explicit_provision",
+      "expected_targets": [
+        {
+          "document_id": "india:national/trademarks_act",
+          "document_name": "Trademarks Act",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "34",
+          "provision_title": "Nothing in this Act shall entitle the proprietor or a registered user of registered"
+        }
+      ],
+      "should_abstain": false,
+      "notes": ""
+    },
+    {
+      "id": "eval_036",
+      "category": "insufficient_evidence",
+      "query": "What is the current official filing fee for a patent application submitted today in India?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "Requires current fee information absent from this static corpus."
+    },
+    {
+      "id": "eval_037",
+      "category": "insufficient_evidence",
+      "query": "Has my company?s trademark application been accepted by the Indian Trade Marks Registry?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "Requires case-specific registry status not present in the corpus."
+    },
+    {
+      "id": "eval_038",
+      "category": "insufficient_evidence",
+      "query": "What damages would a U.S. court award for patent infringement under current federal law?",
+      "jurisdiction": "all",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "Requires U.S. law and current case-specific information absent from the corpus."
+    },
+    {
+      "id": "eval_039",
+      "category": "insufficient_evidence",
+      "query": "Is maple syrup from a particular Canadian region currently registered as a geographical indication?",
+      "jurisdiction": "International",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "The corpus does not establish current Canadian registration status."
+    },
+    {
+      "id": "eval_040",
+      "category": "insufficient_evidence",
+      "query": "What is the latest 2026 amendment to India?s patent rules?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "Asks for current updates beyond the static corpus snapshot."
+    },
+    {
+      "id": "eval_041",
+      "category": "insufficient_evidence",
+      "query": "Which exact patent claims will be granted for my unpublished chemical formula?",
+      "jurisdiction": "India",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "Requires examination of absent, case-specific technical material."
+    },
+    {
+      "id": "eval_042",
+      "category": "out_of_scope",
+      "query": "Suggest a weekend meal plan using ingredients I already have at home.",
+      "jurisdiction": "all",
+      "intent": "general",
+      "expected_targets": [],
+      "should_abstain": true,
+      "notes": "Unrelated to the legal corpus and outside the system?s subject scope."
+    }
+  ],
+  "queries": [
+    {
+      "question": "What are not inventions under Indian patent law?",
+      "expected_targets": [
+        {
+          "document_name_contains": "Patent Act",
+          "provision_type": "section",
+          "provision_number": "3",
+          "jurisdiction": "India"
+        }
+      ],
+      "intent": "prohibition"
+    },
+    {
+      "question": "What is a trademark under Indian law?",
+      "expected_targets": [
+        {
+          "document_name_contains": "Trademarks Act",
+          "provision_type": "section",
+          "provision_number": "2",
+          "jurisdiction": "India"
+        }
+      ],
+      "intent": "definition"
+    },
+    {
+      "question": "What is the purpose of the Nagoya Protocol?",
+      "expected_targets": [
+        {
+          "document_name_contains": "Nagoya Protocol",
+          "provision_type": "article",
+          "provision_number": "1",
+          "jurisdiction": "International"
+        }
+      ],
+      "intent": "purpose"
+    },
+    {
+      "question": "Compare Indian patent law on biological materials with the Nagoya Protocol rules on access and benefit-sharing.",
+      "expected_targets": [
+        {
+          "document_name_contains": "Patent Act",
+          "provision_type": "section",
+          "provision_number": "83",
+          "jurisdiction": "India"
+        },
+        {
+          "document_name_contains": "Biological Diversity Act",
+          "provision_type": "section",
+          "provision_number": "6",
+          "jurisdiction": "India"
+        },
+        {
+          "document_name_contains": "Nagoya Protocol",
+          "provision_type": "article",
+          "provision_number": "2",
+          "jurisdiction": "International"
+        },
+        {
+          "document_name_contains": "Nagoya Protocol",
+          "provision_type": "article",
+          "provision_number": "10",
+          "jurisdiction": "International"
+        },
+        {
+          "document_name_contains": "Cbd",
+          "provision_type": "article",
+          "provision_number": "16",
+          "jurisdiction": "International"
+        }
+      ],
+      "intent": "comparison"
+    }
+  ]
+}

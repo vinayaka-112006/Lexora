@@ -1,0 +1,36 @@
+{
+  "directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe",
+  "manifest_hash": "d47fb79805394178fadb4324c2537a3cbcda462ca39911c38823fa0c461148fe",
+  "files": [
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+      "size": 1716224,
+      "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+      "size": 100,
+      "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+      "size": 151684,
+      "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+      "size": 4096,
+      "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+      "size": 8856,
+      "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+    },
+    {
+      "path": "chroma.sqlite3",
+      "size": 15491072,
+      "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+    }
+  ]
+}

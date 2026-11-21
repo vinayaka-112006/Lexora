@@ -1,0 +1,899 @@
+{
+  "candidate_sha256": "efd89919dde975cf0427152d7d62d06c1c5b2e513dd9d3073ced72449c7a2a76",
+  "candidate_records": 1322,
+  "fssai_regulations": 22,
+  "nul_count": 6,
+  "nul_chunk": "india:national/tkdl_background_2021#chunk-0000",
+  "index_path": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-nul-reg-validation-20261031T170500Z",
+  "collection": "ip_sakti_legal",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "expected_dimension": 384,
+  "checks": {
+    "embeddings_created": 1322,
+    "collection_count": 1322,
+    "ids_match": true,
+    "documents_match_after_only_nul_removal": true,
+    "metadata_match": true,
+    "all_vectors_384": true,
+    "stored_nul_count": 0,
+    "candidate_hash_unchanged": true,
+    "quick_check": [
+      "ok"
+    ],
+    "integrity_check": [
+      "ok"
+    ],
+    "fts_table_present": true,
+    "fts_integrity_check": "passed (no SQLite exception)",
+    "all_integrity_checks_pass": true,
+    "candidate_unchanged_final": true
+  },
+  "database_sha256_before_fts": "d22ba80130fce7259d3ef4e81ad8b72812feee0ca3938924ed886ba58aaa4db9",
+  "database_sha256_after_fts": "d22ba80130fce7259d3ef4e81ad8b72812feee0ca3938924ed886ba58aaa4db9",
+  "database_sha256_after_readonly_checks": "d22ba80130fce7259d3ef4e81ad8b72812feee0ca3938924ed886ba58aaa4db9",
+  "targeted_retrieval": [
+    {
+      "query": "Regulation 2 of the Food Safety and Standards (Ayurveda Aahara) Regulations",
+      "jurisdiction": "India",
+      "intended_provision": {
+        "rank": 1,
+        "provision_type": "regulation",
+        "provision_number": 2,
+        "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+        "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+        "page_start": 15,
+        "page_end": 15,
+        "content_type": "provision",
+        "chunk_id": "f6691c9f125ec4de03822e21f26263a13ffe1028cb2789ca5529a964a31ed93a",
+        "final_score": 0.08053613053613054,
+        "candidate_chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0012",
+        "source_pages": [
+          15
+        ]
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "provision_type": "regulation",
+          "provision_number": 2,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 15,
+          "page_end": 15,
+          "content_type": "provision",
+          "chunk_id": "f6691c9f125ec4de03822e21f26263a13ffe1028cb2789ca5529a964a31ed93a",
+          "final_score": 0.08053613053613054
+        },
+        {
+          "rank": 2,
+          "provision_type": "regulation",
+          "provision_number": 2,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 2,
+          "page_end": 3,
+          "content_type": "provision",
+          "chunk_id": "0b622b3f16ca320a3257750a76ba114e1f7af625b001231654ee52bd9623e62f",
+          "final_score": 0.062987012987013
+        },
+        {
+          "rank": 3,
+          "provision_type": "regulation",
+          "provision_number": 1,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 15,
+          "page_end": 15,
+          "content_type": "provision",
+          "chunk_id": "71f9a9d4d75fd1c70557eba580f2fcba605dc443c8a4520b6342e3fd25c20bfc",
+          "final_score": 0.03252247488101534
+        },
+        {
+          "rank": 4,
+          "provision_type": "regulation",
+          "provision_number": 6,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 16,
+          "page_end": 16,
+          "content_type": "provision",
+          "chunk_id": "4e1ea4089c3b8d5fccd79b5306a9cd4ba5d093219bebb1c8f8d00359cc420fb6",
+          "final_score": 0.03200204813108039
+        },
+        {
+          "rank": 5,
+          "provision_type": "regulation",
+          "provision_number": 3,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 15,
+          "page_end": 16,
+          "content_type": "provision",
+          "chunk_id": "e831f4d50b869a44ddbb7cbe9f80d6ffdf324913d48ca57858b51d59c22d2968",
+          "final_score": 0.03057889822595705
+        },
+        {
+          "rank": 6,
+          "provision_type": "regulation",
+          "provision_number": 10,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 16,
+          "page_end": 16,
+          "content_type": "provision",
+          "chunk_id": "8cfcc9e6c2e82d492dc9cb22b718383fc38c12bba24b7665c5e818adb27bf0e2",
+          "final_score": 0.03055037313432836
+        },
+        {
+          "rank": 7,
+          "provision_type": "regulation",
+          "provision_number": 12,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 16,
+          "page_end": 16,
+          "content_type": "provision",
+          "chunk_id": "0f8c236228c237e86d124e11b5a4ec50b07195a66f6a0dec1f9f98027048fb51",
+          "final_score": 0.030536130536130537
+        },
+        {
+          "rank": 8,
+          "provision_type": "regulation",
+          "provision_number": 11,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 16,
+          "page_end": 16,
+          "content_type": "provision",
+          "chunk_id": "4fc402f559566b6cfb132659a6ae2fb907a8b8b0e44e551d671dba7ec1ffb8ae",
+          "final_score": 0.030330882352941176
+        },
+        {
+          "rank": 9,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 15,
+          "page_end": 15,
+          "content_type": "general",
+          "chunk_id": "da8955c6845899cd2be79cc6c0017a87605add4190829ed1a62b64ad3b2af4f5",
+          "final_score": 0.03009207275993712
+        },
+        {
+          "rank": 10,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 17,
+          "page_end": 17,
+          "content_type": "schedule",
+          "chunk_id": "45dc3a02a7c6e8758ff0ed9f0509fb063dda1677e898a79417d357b7b2fb41f5",
+          "final_score": 0.028814262023217248
+        }
+      ],
+      "contents_or_schedule_false_match": false,
+      "matching_provision_occurrences": [
+        {
+          "rank": 1,
+          "provision_type": "regulation",
+          "provision_number": 2,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 15,
+          "page_end": 15,
+          "content_type": "provision",
+          "chunk_id": "f6691c9f125ec4de03822e21f26263a13ffe1028cb2789ca5529a964a31ed93a",
+          "final_score": 0.08053613053613054,
+          "candidate_chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0012",
+          "source_pages": [
+            15
+          ]
+        },
+        {
+          "rank": 2,
+          "provision_type": "regulation",
+          "provision_number": 2,
+          "document_id": "india:national/fssai_ayurveda_aahara_regulations_2022",
+          "document_name": "Fssai Ayurveda Aahara Regulations 2022",
+          "page_start": 2,
+          "page_end": 3,
+          "content_type": "provision",
+          "chunk_id": "0b622b3f16ca320a3257750a76ba114e1f7af625b001231654ee52bd9623e62f",
+          "final_score": 0.062987012987013,
+          "candidate_chunk_id": "india:national/fssai_ayurveda_aahara_regulations_2022#chunk-0002",
+          "source_pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "note": "Candidate contains Hindi and English body text for Regulation 2 (pages 2-3 and 15); rank 1 is the English body chunk on page 15. Both are provision chunks, not contents or schedule entries."
+    },
+    {
+      "query": "Section 7 of the Biological Diversity Act",
+      "jurisdiction": "India",
+      "intended_provision": {
+        "rank": 1,
+        "provision_type": "section",
+        "provision_number": 7,
+        "document_id": "india:national/biological_diversity_act_2002",
+        "document_name": "Biological Diversity Act 2002",
+        "page_start": 7,
+        "page_end": 8,
+        "content_type": "provision",
+        "chunk_id": "ed065eccd31ffe64b3ef29838d43e23df620a5853753b5bc4439638388a1be35",
+        "final_score": 0.11388888888888889,
+        "candidate_chunk_id": "india:national/biological_diversity_act_2002#chunk-0007",
+        "source_pages": [
+          7,
+          8
+        ]
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "provision_type": "section",
+          "provision_number": 7,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 7,
+          "page_end": 8,
+          "content_type": "provision",
+          "chunk_id": "ed065eccd31ffe64b3ef29838d43e23df620a5853753b5bc4439638388a1be35",
+          "final_score": 0.11388888888888889
+        },
+        {
+          "rank": 2,
+          "provision_type": "section",
+          "provision_number": 1,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 4,
+          "page_end": 4,
+          "content_type": "provision",
+          "chunk_id": "a1fe34aaee7c7a8e8944463254403aebe30837604ca10b9bccc3bc88ebd27765",
+          "final_score": 0.08079838900734423
+        },
+        {
+          "rank": 3,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 4,
+          "page_end": 4,
+          "content_type": "general",
+          "chunk_id": "272197afa55a6b6936f4ef203e6167d684377270a8322eb371ba13e353493d68",
+          "final_score": 0.08077651515151515
+        },
+        {
+          "rank": 4,
+          "provision_type": "section",
+          "provision_number": 40,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 18,
+          "page_end": 18,
+          "content_type": "provision",
+          "chunk_id": "03b995c370f742a320dd97cb1ccbd6dc5c9b7e841218319a60e961a9b0408ea7",
+          "final_score": 0.0794691224268689
+        },
+        {
+          "rank": 5,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 1,
+          "page_end": 1,
+          "content_type": "contents",
+          "chunk_id": "70c544a0726cff0a105e91b1bc888ffc155afbf7b3cf4d30bd56e7fb15ba7922",
+          "final_score": 0.07758751902587518
+        },
+        {
+          "rank": 6,
+          "provision_type": "section",
+          "provision_number": 23,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 13,
+          "page_end": 14,
+          "content_type": "provision",
+          "chunk_id": "2d6eb8a5fa4263b2053ae050276c5e4b57607ba2aa1e039c6f4a84d7cffccbbc",
+          "final_score": 0.07564102564102565
+        },
+        {
+          "rank": 7,
+          "provision_type": "section",
+          "provision_number": 55,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 22,
+          "page_end": 22,
+          "content_type": "provision",
+          "chunk_id": "ef5d4e8dfb725ade47be202cf5dd69d19303f9caf3a10f35d394c35383b2155c",
+          "final_score": 0.065625
+        },
+        {
+          "rank": 8,
+          "provision_type": "section",
+          "provision_number": 36,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 16,
+          "page_end": 17,
+          "content_type": "provision",
+          "chunk_id": "8a7ababb01efd9130705941b754c795a3b2cf16d78dfe60dd74efda13fe79787",
+          "final_score": 0.06470588235294118
+        },
+        {
+          "rank": 9,
+          "provision_type": "section",
+          "provision_number": 39,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 18,
+          "page_end": 18,
+          "content_type": "provision",
+          "chunk_id": "bd3fd04acfb8e693b22540e56e0ea64365ad082c0a6bc969827cd6e1deba5fd9",
+          "final_score": 0.0644927536231884
+        },
+        {
+          "rank": 10,
+          "provision_type": "section",
+          "provision_number": "36B",
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 17,
+          "page_end": 17,
+          "content_type": "provision",
+          "chunk_id": "3c78c0433cd93eb54ccd5ffa12ff78c444956d5a0c2d6b93b4987aa5654ae59c",
+          "final_score": 0.06351351351351352
+        }
+      ],
+      "contents_or_schedule_false_match": false,
+      "matching_provision_occurrences": [
+        {
+          "rank": 1,
+          "provision_type": "section",
+          "provision_number": 7,
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "page_start": 7,
+          "page_end": 8,
+          "content_type": "provision",
+          "chunk_id": "ed065eccd31ffe64b3ef29838d43e23df620a5853753b5bc4439638388a1be35",
+          "final_score": 0.11388888888888889,
+          "candidate_chunk_id": "india:national/biological_diversity_act_2002#chunk-0007",
+          "source_pages": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Rule 82 of the Patents Rules",
+      "jurisdiction": "India",
+      "intended_provision": {
+        "rank": 1,
+        "provision_type": "rule",
+        "provision_number": 82,
+        "document_id": "india:national/patent-rules-2024",
+        "document_name": "Patent Rules 2024",
+        "page_start": 52,
+        "page_end": 52,
+        "content_type": "provision",
+        "chunk_id": "dcaf2b31c8b16566e6713895e8d49d12f445922a9066edbe9db2454178be10fd",
+        "final_score": 0.13047794966520435,
+        "candidate_chunk_id": "india:national/patent-rules-2024#chunk-0086",
+        "source_pages": [
+          52
+        ]
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "provision_type": "rule",
+          "provision_number": 82,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 52,
+          "page_end": 52,
+          "content_type": "provision",
+          "chunk_id": "dcaf2b31c8b16566e6713895e8d49d12f445922a9066edbe9db2454178be10fd",
+          "final_score": 0.13047794966520435
+        },
+        {
+          "rank": 2,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 4,
+          "page_end": 4,
+          "content_type": "contents",
+          "chunk_id": "bea14fab0d42b5d82b0c5075028add25dd3f0333154dccedc493be9a64e63e1b",
+          "final_score": 0.0815136476426799
+        },
+        {
+          "rank": 3,
+          "provision_type": "rule",
+          "provision_number": 1,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 7,
+          "page_end": 7,
+          "content_type": "provision",
+          "chunk_id": "0f063d496db83adc7c155fa65b9b2e033cab98b27fbec2eca79addb35f9ab35b",
+          "final_score": 0.0815136476426799
+        },
+        {
+          "rank": 4,
+          "provision_type": "rule",
+          "provision_number": 95,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 56,
+          "page_end": 57,
+          "content_type": "provision",
+          "chunk_id": "6b3193f2f140af456e7821fffb1ec34d1dd1ebf0f5960e4968946de4c9aed26a",
+          "final_score": 0.07920634920634921
+        },
+        {
+          "rank": 5,
+          "provision_type": "rule",
+          "provision_number": 83,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 52,
+          "page_end": 52,
+          "content_type": "provision",
+          "chunk_id": "1939977f67c70491fa8fb0b045c69efb818a6bbeeafb3a443d12b8eaf70399ae",
+          "final_score": 0.06639344262295083
+        },
+        {
+          "rank": 6,
+          "provision_type": "rule",
+          "provision_number": 110,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 64,
+          "page_end": 65,
+          "content_type": "provision",
+          "chunk_id": "08cc67d1ed013ea53829af6233a8a7cc1fd0d6399725a2d49e95e8b0da32083d",
+          "final_score": 0.06587301587301587
+        },
+        {
+          "rank": 7,
+          "provision_type": null,
+          "provision_number": null,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 1,
+          "page_end": 1,
+          "content_type": "contents",
+          "chunk_id": "4c7aa59102dcd6ab99de87dc3b9fca4adb6eba3847050006a85762812b36edc1",
+          "final_score": 0.065625
+        },
+        {
+          "rank": 8,
+          "provision_type": "rule",
+          "provision_number": 75,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 49,
+          "page_end": 49,
+          "content_type": "provision",
+          "chunk_id": "176ed8e5e279bd7418ef0b0f09d2c5cdfb5a15194cdbd348a96dde546579da27",
+          "final_score": 0.065625
+        },
+        {
+          "rank": 9,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 3,
+          "page_end": 3,
+          "content_type": "contents",
+          "chunk_id": "5e6e1dc4e89efaed6536fe82650ae76d9fdf85d43b3878f9768f95815ab93ba3",
+          "final_score": 0.06515151515151515
+        },
+        {
+          "rank": 10,
+          "provision_type": "rule",
+          "provision_number": 70,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 47,
+          "page_end": 47,
+          "content_type": "provision",
+          "chunk_id": "73ba2238b8432357ee231f0d727c1dd0002936b9d945a1ba6124d9b24c3d4885",
+          "final_score": 0.06492537313432836
+        }
+      ],
+      "contents_or_schedule_false_match": false,
+      "matching_provision_occurrences": [
+        {
+          "rank": 1,
+          "provision_type": "rule",
+          "provision_number": 82,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 52,
+          "page_end": 52,
+          "content_type": "provision",
+          "chunk_id": "dcaf2b31c8b16566e6713895e8d49d12f445922a9066edbe9db2454178be10fd",
+          "final_score": 0.13047794966520435,
+          "candidate_chunk_id": "india:national/patent-rules-2024#chunk-0086",
+          "source_pages": [
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Rule 116 of the Patents Rules",
+      "jurisdiction": "India",
+      "intended_provision": {
+        "rank": 1,
+        "provision_type": "rule",
+        "provision_number": 116,
+        "document_id": "india:national/patent-rules-2024",
+        "document_name": "Patent Rules 2024",
+        "page_start": 66,
+        "page_end": 67,
+        "content_type": "provision",
+        "chunk_id": "83b694eff8dc67aef9ea82b5bd46601d0a250ada25a523d56a93489243d9cd46",
+        "final_score": 0.11639344262295083,
+        "candidate_chunk_id": "india:national/patent-rules-2024#chunk-0121",
+        "source_pages": [
+          66,
+          67
+        ]
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "provision_type": "rule",
+          "provision_number": 116,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 66,
+          "page_end": 67,
+          "content_type": "provision",
+          "chunk_id": "83b694eff8dc67aef9ea82b5bd46601d0a250ada25a523d56a93489243d9cd46",
+          "final_score": 0.11639344262295083
+        },
+        {
+          "rank": 2,
+          "provision_type": "rule",
+          "provision_number": 1,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 7,
+          "page_end": 7,
+          "content_type": "provision",
+          "chunk_id": "0f063d496db83adc7c155fa65b9b2e033cab98b27fbec2eca79addb35f9ab35b",
+          "final_score": 0.08201844262295083
+        },
+        {
+          "rank": 3,
+          "provision_type": "rule",
+          "provision_number": 33,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 40,
+          "page_end": 40,
+          "content_type": "provision",
+          "chunk_id": "52fdc773ae793e4475eb615e0bc6f8263b1118642a0a6a28828a22d61911acec",
+          "final_score": 0.07987736900780379
+        },
+        {
+          "rank": 4,
+          "provision_type": "rule",
+          "provision_number": 95,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 56,
+          "page_end": 57,
+          "content_type": "provision",
+          "chunk_id": "6b3193f2f140af456e7821fffb1ec34d1dd1ebf0f5960e4968946de4c9aed26a",
+          "final_score": 0.07798434442270058
+        },
+        {
+          "rank": 5,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 5,
+          "page_end": 5,
+          "content_type": "contents",
+          "chunk_id": "7ba4299270b1e1167c5ba967b5cd55c33b811d2b0347f0528de1e6a14a3d2dd1",
+          "final_score": 0.07765151515151515
+        },
+        {
+          "rank": 6,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 4,
+          "page_end": 4,
+          "content_type": "contents",
+          "chunk_id": "bea14fab0d42b5d82b0c5075028add25dd3f0333154dccedc493be9a64e63e1b",
+          "final_score": 0.07581612258494337
+        },
+        {
+          "rank": 7,
+          "provision_type": "rule",
+          "provision_number": 110,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 64,
+          "page_end": 65,
+          "content_type": "provision",
+          "chunk_id": "08cc67d1ed013ea53829af6233a8a7cc1fd0d6399725a2d49e95e8b0da32083d",
+          "final_score": 0.06612903225806452
+        },
+        {
+          "rank": 8,
+          "provision_type": "",
+          "provision_number": "",
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 3,
+          "page_end": 3,
+          "content_type": "contents",
+          "chunk_id": "5e6e1dc4e89efaed6536fe82650ae76d9fdf85d43b3878f9768f95815ab93ba3",
+          "final_score": 0.06612903225806452
+        },
+        {
+          "rank": 9,
+          "provision_type": null,
+          "provision_number": null,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 1,
+          "page_end": 1,
+          "content_type": "contents",
+          "chunk_id": "4c7aa59102dcd6ab99de87dc3b9fca4adb6eba3847050006a85762812b36edc1",
+          "final_score": 0.06587301587301587
+        },
+        {
+          "rank": 10,
+          "provision_type": "rule",
+          "provision_number": 120,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 68,
+          "page_end": 68,
+          "content_type": "provision",
+          "chunk_id": "828618960c4986da459063a3fd5e77cc05e38a83f7533cb61555c68c90842012",
+          "final_score": 0.06587301587301587
+        }
+      ],
+      "contents_or_schedule_false_match": false,
+      "matching_provision_occurrences": [
+        {
+          "rank": 1,
+          "provision_type": "rule",
+          "provision_number": 116,
+          "document_id": "india:national/patent-rules-2024",
+          "document_name": "Patent Rules 2024",
+          "page_start": 66,
+          "page_end": 67,
+          "content_type": "provision",
+          "chunk_id": "83b694eff8dc67aef9ea82b5bd46601d0a250ada25a523d56a93489243d9cd46",
+          "final_score": 0.11639344262295083,
+          "candidate_chunk_id": "india:national/patent-rules-2024#chunk-0121",
+          "source_pages": [
+            66,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Article 6 of the Convention on Biological Diversity",
+      "jurisdiction": "International",
+      "intended_provision": {
+        "rank": 1,
+        "provision_type": "article",
+        "provision_number": 6,
+        "document_id": "international:international/cbd",
+        "document_name": "Cbd",
+        "page_start": 10,
+        "page_end": 11,
+        "content_type": "provision",
+        "chunk_id": "235485be01685b8b6b3a47f2c059e928331701b612d82c808fd1b95cf10f7af5",
+        "final_score": 0.08125763125763126,
+        "candidate_chunk_id": "international:international/cbd#chunk-0008",
+        "source_pages": [
+          10,
+          11
+        ]
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/cbd",
+          "document_name": "Cbd",
+          "page_start": 10,
+          "page_end": 11,
+          "content_type": "provision",
+          "chunk_id": "235485be01685b8b6b3a47f2c059e928331701b612d82c808fd1b95cf10f7af5",
+          "final_score": 0.08125763125763126
+        },
+        {
+          "rank": 2,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/wipo_gratk_treaty_2024",
+          "document_name": "Wipo Gratk Treaty 2024",
+          "page_start": 5,
+          "page_end": 6,
+          "content_type": "provision",
+          "chunk_id": "110846457adea866c2e1153512d6fdacae27b075960ea8dd270b6d13d5cbf110",
+          "final_score": 0.05
+        },
+        {
+          "rank": 3,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/trips_agreement",
+          "document_name": "Trips Agreement",
+          "page_start": 5,
+          "page_end": 5,
+          "content_type": "provision",
+          "chunk_id": "4c1dcb620ce9309f0a9e7c0db8f91c54fbbb3e7cb3992fca45b093565c222bb5",
+          "final_score": 0.05
+        },
+        {
+          "rank": 4,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/budapest_treaty",
+          "document_name": "Budapest Treaty",
+          "page_start": 4,
+          "page_end": 4,
+          "content_type": "provision",
+          "chunk_id": "6e45c8c844fe540c548d8d4a0325a1e446edef2cb9cea8dd677583410760a15e",
+          "final_score": 0.05
+        },
+        {
+          "rank": 5,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "page_start": 6,
+          "page_end": 7,
+          "content_type": "provision",
+          "chunk_id": "73bf4f419d682d4614f402cbfeca0b3dc3c1ff9cf9ce5d2d0dd8d1d35497e071",
+          "final_score": 0.05
+        },
+        {
+          "rank": 6,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/cbd",
+          "document_name": "Cbd",
+          "page_start": 32,
+          "page_end": 32,
+          "content_type": "provision",
+          "chunk_id": "838bab3dbad07b0384704c5bdc626ea95f8399ba3be01a29eb6dab3b7f28d731",
+          "final_score": 0.05
+        },
+        {
+          "rank": 7,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/cbd",
+          "document_name": "Cbd",
+          "page_start": 34,
+          "page_end": 34,
+          "content_type": "provision",
+          "chunk_id": "910d046c8e11c66b3c85e9e2162ff5033998859d763bbb54642c3bd9c6e99b91",
+          "final_score": 0.05
+        },
+        {
+          "rank": 8,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/hague_agreement",
+          "document_name": "Hague Agreement",
+          "page_start": 6,
+          "page_end": 6,
+          "content_type": "provision",
+          "chunk_id": "a6ac976ba4dc33f472725f8c6afbdf6e3ffd36012e77c914d3aee6eada9731bf",
+          "final_score": 0.05
+        },
+        {
+          "rank": 9,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/madrid_protocol",
+          "document_name": "Madrid Protocol",
+          "page_start": 12,
+          "page_end": 14,
+          "content_type": "provision",
+          "chunk_id": "be31a91032d766a1382828179c7fd15dbb691a39c063cd0b5c7577118744f1a3",
+          "final_score": 0.05
+        },
+        {
+          "rank": 10,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/pct",
+          "document_name": "Pct",
+          "page_start": 10,
+          "page_end": 11,
+          "content_type": "provision",
+          "chunk_id": "e071b4baab0c7dba3a1a43863c7e6e92e61777f9d4f28e5513534cfc526e719c",
+          "final_score": 0.05
+        }
+      ],
+      "contents_or_schedule_false_match": false,
+      "matching_provision_occurrences": [
+        {
+          "rank": 1,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/cbd",
+          "document_name": "Cbd",
+          "page_start": 10,
+          "page_end": 11,
+          "content_type": "provision",
+          "chunk_id": "235485be01685b8b6b3a47f2c059e928331701b612d82c808fd1b95cf10f7af5",
+          "final_score": 0.08125763125763126,
+          "candidate_chunk_id": "international:international/cbd#chunk-0008",
+          "source_pages": [
+            10,
+            11
+          ]
+        },
+        {
+          "rank": 6,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/cbd",
+          "document_name": "Cbd",
+          "page_start": 32,
+          "page_end": 32,
+          "content_type": "provision",
+          "chunk_id": "838bab3dbad07b0384704c5bdc626ea95f8399ba3be01a29eb6dab3b7f28d731",
+          "final_score": 0.05,
+          "candidate_chunk_id": "international:international/cbd#chunk-0052",
+          "source_pages": [
+            32
+          ]
+        },
+        {
+          "rank": 7,
+          "provision_type": "article",
+          "provision_number": 6,
+          "document_id": "international:international/cbd",
+          "document_name": "Cbd",
+          "page_start": 34,
+          "page_end": 34,
+          "content_type": "provision",
+          "chunk_id": "910d046c8e11c66b3c85e9e2162ff5033998859d763bbb54642c3bd9c6e99b91",
+          "final_score": 0.05,
+          "candidate_chunk_id": "international:international/cbd#chunk-0070",
+          "source_pages": [
+            34
+          ]
+        }
+      ]
+    }
+  ],
+  "candidate_hash_after_all_checks": "efd89919dde975cf0427152d7d62d06c1c5b2e513dd9d3073ced72449c7a2a76",
+  "fts_integrity_command": "INSERT INTO embedding_fulltext_search(embedding_fulltext_search, rank) VALUES('integrity-check', 1)"
+}

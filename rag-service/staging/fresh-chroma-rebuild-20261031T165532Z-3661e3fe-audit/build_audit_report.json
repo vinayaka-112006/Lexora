@@ -1,0 +1,273 @@
+{
+  "created_utc": "2026-10-31T17:02:10.959421+00:00",
+  "build_command": "isolated process calling build_index.load_chunks and build_index.index_chunks; no semantic sanity queries",
+  "candidate_chunk_map": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\chunk-refresh-regulation-20261031T140000Z-audit\\chunks.candidate.json",
+  "candidate_sha256": "efd89919dde975cf0427152d7d62d06c1c5b2e513dd9d3073ced72449c7a2a76",
+  "candidate_records": 1322,
+  "canonical_sha256": "42e8a14c1f97eac89e6028fd663d5d2e9d3ca37dce88f19d008764eca1d31c63",
+  "index_directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe",
+  "backup_directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-backup",
+  "audit_directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-audit",
+  "collection": "ip_sakti_legal",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimension": 384,
+  "batch_size": 64,
+  "build_process_exited_before_backup_validation": true,
+  "index_manifest_before_validation": [
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+      "size": 1716224,
+      "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+      "size": 100,
+      "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+      "size": 151684,
+      "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+      "size": 4096,
+      "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+      "size": 8856,
+      "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+    },
+    {
+      "path": "chroma.sqlite3",
+      "size": 15491072,
+      "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+    }
+  ],
+  "index_manifest_after_validation": [
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+      "size": 1716224,
+      "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+      "size": 100,
+      "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+      "size": 151684,
+      "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+      "size": 4096,
+      "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+      "size": 8856,
+      "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+    },
+    {
+      "path": "chroma.sqlite3",
+      "size": 15491072,
+      "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+    }
+  ],
+  "backup_manifest_before_validation": [
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+      "size": 1716224,
+      "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+      "size": 100,
+      "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+      "size": 151684,
+      "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+      "size": 4096,
+      "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+      "size": 8856,
+      "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+    },
+    {
+      "path": "chroma.sqlite3",
+      "size": 15491072,
+      "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+    }
+  ],
+  "backup_manifest_after_validation": [
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+      "size": 1716224,
+      "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+      "size": 100,
+      "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+      "size": 151684,
+      "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+      "size": 4096,
+      "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+    },
+    {
+      "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+      "size": 8856,
+      "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+    },
+    {
+      "path": "chroma.sqlite3",
+      "size": 15491072,
+      "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+    }
+  ],
+  "backup_matches_build": true,
+  "sqlite_and_payload_validation": {
+    "index": {
+      "directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe",
+      "sqlite_sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1",
+      "quick_check": [
+        "ok"
+      ],
+      "integrity_check": [
+        "ok"
+      ],
+      "collection": "ip_sakti_legal",
+      "dimension": 384,
+      "records": 1322,
+      "ids_match": true,
+      "documents_match_after_only_nul_removal": true,
+      "metadata_match": true,
+      "document_mismatch_ids": [],
+      "metadata_mismatch_ids": []
+    },
+    "backup": {
+      "directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-backup",
+      "sqlite_sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1",
+      "quick_check": [
+        "ok"
+      ],
+      "integrity_check": [
+        "ok"
+      ],
+      "collection": "ip_sakti_legal",
+      "dimension": 384,
+      "records": 1322,
+      "ids_match": true,
+      "documents_match_after_only_nul_removal": true,
+      "metadata_match": true,
+      "document_mismatch_ids": [],
+      "metadata_mismatch_ids": []
+    },
+    "index_manifest_unchanged": true,
+    "backup_manifest_unchanged": true
+  },
+  "fts5_integrity": {
+    "result": "passed",
+    "disposable_copy_only": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-fts-check-copy",
+    "database_hash_before": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1",
+    "database_hash_after": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1",
+    "manifest_before": [
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+        "size": 1716224,
+        "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+        "size": 100,
+        "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+        "size": 151684,
+        "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+        "size": 4096,
+        "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+        "size": 8856,
+        "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+      },
+      {
+        "path": "chroma.sqlite3",
+        "size": 15491072,
+        "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+      }
+    ],
+    "manifest_after": [
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/data_level0.bin",
+        "size": 1716224,
+        "sha256": "e2f93f3550237e4bb860133c3c0b50dd9ca7e07a5793972bb95f6baaf84b49c0"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/header.bin",
+        "size": 100,
+        "sha256": "c5531b9e7d1fd0b17bc6ab411b963a6620ac90469fe092f612544c9430669a13"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/index_metadata.pickle",
+        "size": 151684,
+        "sha256": "59a8f910ecbc4856d3de98603861eae2a39218a52b17396203158c1e4f79ceab"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/length.bin",
+        "size": 4096,
+        "sha256": "cbdf27cf8d3ff712c369a1689487a03642430564ac8745027a0e061ae793f2cb"
+      },
+      {
+        "path": "4d4771fe-d256-4b77-b876-bdd72a1d59b0/link_lists.bin",
+        "size": 8856,
+        "sha256": "121d536daed956eb498cc5f3437fbb745b122518bec9edd07351aabaa25859f5"
+      },
+      {
+        "path": "chroma.sqlite3",
+        "size": 15491072,
+        "sha256": "6f64f635fe0f0f430d52620284c8c05d3117cc1bb7501d357ffea7418663aad1"
+      }
+    ]
+  },
+  "reserved_runtime_copies": {
+    "init": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-experiment-init",
+    "count_ids": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-experiment-count-ids",
+    "retrieval": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-experiment-retrieval",
+    "api": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\fresh-chroma-rebuild-20261031T165532Z-3661e3fe-experiment-api"
+  },
+  "reserved_copies_match_build": {
+    "init": true,
+    "count_ids": true,
+    "retrieval": true,
+    "api": true
+  },
+  "vector_validation": "Chroma collection dimension=384; all upserts succeeded. Direct HNSW vector enumeration unavailable because hnswlib is not installed in this environment.",
+  "candidate_canonical_unchanged": true,
+  "active_configuration_changed": false,
+  "existing_indexes_modified": false,
+  "runtime_queries_or_api_requests": false,
+  "llm_called": false
+}

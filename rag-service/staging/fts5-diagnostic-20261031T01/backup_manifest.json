@@ -1,0 +1,44 @@
+﻿{
+    "created_utc":  "2026-10-31T12:34:36.5301342Z",
+    "chunks_count":  1349,
+    "chunks_sha256":  "42e8a14c1f97eac89e6028fd663d5d2e9d3ca37dce88f19d008764eca1d31c63",
+    "chroma_files":  [
+                         {
+                             "RelativePath":  "chroma.sqlite3",
+                             "Length":  20611072,
+                             "SHA256":  "3f5492334474fa7318ad5571188b2f80917282101ca04fbe72b01dc56052fea6"
+                         },
+                         {
+                             "RelativePath":  "f0169367-2cbc-4489-9cc1-95e49a4f6dd7\\data_level0.bin",
+                             "Length":  2260924,
+                             "SHA256":  "e56b88084822f28a06140bc66c842d0cfc3083f6c092c406f62365c5e967ca94"
+                         },
+                         {
+                             "RelativePath":  "f0169367-2cbc-4489-9cc1-95e49a4f6dd7\\header.bin",
+                             "Length":  100,
+                             "SHA256":  "99f6a2d5eab26bc7bcdcfe39d2af2e134a7feaf4e31023c01b805c668115ef3d"
+                         },
+                         {
+                             "RelativePath":  "f0169367-2cbc-4489-9cc1-95e49a4f6dd7\\index_metadata.pickle",
+                             "Length":  199784,
+                             "SHA256":  "789adc051b057cfb861fb675ca8b52dd11b102147633dda4d40bbce6a4a9105c"
+                         },
+                         {
+                             "RelativePath":  "f0169367-2cbc-4489-9cc1-95e49a4f6dd7\\length.bin",
+                             "Length":  5396,
+                             "SHA256":  "7f3cba67366f11887eca684c1e77af34af3382cefbadca8c73bd893345b9f2f2"
+                         },
+                         {
+                             "RelativePath":  "f0169367-2cbc-4489-9cc1-95e49a4f6dd7\\link_lists.bin",
+                             "Length":  11584,
+                             "SHA256":  "b38b60732ca5a75352974a11be1b2b67e696714a60f320272905d60f852cd00c"
+                         }
+                     ],
+    "stopped_pids":  [
+                         20968,
+                         18716,
+                         21916,
+                         18488,
+                         29764
+                     ]
+}

@@ -1,0 +1,396 @@
+{
+  "candidate_chunk_map": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\chunk-refresh-regulation-20261031T140000Z-audit\\chunks.candidate.json",
+  "candidate_sha256": "efd89919dde975cf0427152d7d62d06c1c5b2e513dd9d3073ced72449c7a2a76",
+  "index_path": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\staging\\retrieval-eval-legal-expansion-final-20261107T001200Z",
+  "query_count": 42,
+  "answerable_count": 35,
+  "deterministic": true,
+  "overall": {
+    "queries": 35,
+    "recall@1": 0.4286,
+    "recall@3": 0.6286,
+    "recall@5": 0.7571,
+    "recall@10": 0.981,
+    "mrr": 0.5989
+  },
+  "categories": {
+    "definitions": {
+      "queries": 4,
+      "recall@1": 0.75,
+      "recall@3": 0.75,
+      "recall@5": 0.75,
+      "recall@10": 1.0,
+      "mrr": 0.775
+    },
+    "patentability": {
+      "queries": 3,
+      "recall@1": 0.6667,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.8333
+    },
+    "patent_procedure": {
+      "queries": 3,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.3333,
+      "recall@10": 1.0,
+      "mrr": 0.1759
+    },
+    "trademarks": {
+      "queries": 3,
+      "recall@1": 0.6667,
+      "recall@3": 0.6667,
+      "recall@5": 0.6667,
+      "recall@10": 1.0,
+      "mrr": 0.7083
+    },
+    "geographical_indications": {
+      "queries": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 1.0
+    },
+    "designs": {
+      "queries": 2,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.5,
+      "recall@10": 1.0,
+      "mrr": 0.1875
+    },
+    "biological_diversity": {
+      "queries": 3,
+      "recall@1": 0.3333,
+      "recall@3": 0.6667,
+      "recall@5": 0.6667,
+      "recall@10": 1.0,
+      "mrr": 0.5
+    },
+    "traditional_knowledge": {
+      "queries": 2,
+      "recall@1": 0.5,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.75
+    },
+    "ayurveda_food_regulatory": {
+      "queries": 2,
+      "recall@1": 0.0,
+      "recall@3": 0.5,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.2667
+    },
+    "international_treaties": {
+      "queries": 4,
+      "recall@1": 0.0,
+      "recall@3": 0.75,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.3833
+    },
+    "comparisons": {
+      "queries": 4,
+      "recall@1": 0.25,
+      "recall@3": 0.25,
+      "recall@5": 0.375,
+      "recall@10": 0.8333,
+      "mrr": 0.567
+    },
+    "explicit_provisions": {
+      "queries": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "target_rankings": {
+    "eval_001": [
+      1
+    ],
+    "eval_002": [
+      10
+    ],
+    "eval_003": [
+      1
+    ],
+    "eval_004": [
+      1
+    ],
+    "eval_005": [
+      1
+    ],
+    "eval_006": [
+      1
+    ],
+    "eval_007": [
+      2
+    ],
+    "eval_008": [
+      4
+    ],
+    "eval_009": [
+      9
+    ],
+    "eval_010": [
+      6
+    ],
+    "eval_011": [
+      8
+    ],
+    "eval_012": [
+      1
+    ],
+    "eval_013": [
+      1
+    ],
+    "eval_014": [
+      1
+    ],
+    "eval_015": [
+      1
+    ],
+    "eval_016": [
+      4
+    ],
+    "eval_017": [
+      8
+    ],
+    "eval_018": [
+      3
+    ],
+    "eval_019": [
+      1
+    ],
+    "eval_020": [
+      6
+    ],
+    "eval_021": [
+      1
+    ],
+    "eval_022": [
+      2
+    ],
+    "eval_023": [
+      3
+    ],
+    "eval_024": [
+      5
+    ],
+    "eval_025": [
+      2
+    ],
+    "eval_026": [
+      3
+    ],
+    "eval_027": [
+      5
+    ],
+    "eval_028": [
+      2
+    ],
+    "eval_029": [
+      10,
+      8
+    ],
+    "eval_030": [
+      null,
+      7,
+      null
+    ],
+    "eval_031": [
+      1,
+      5
+    ],
+    "eval_032": [
+      9,
+      1
+    ],
+    "eval_033": [
+      1
+    ],
+    "eval_034": [
+      1
+    ],
+    "eval_035": [
+      1
+    ]
+  },
+  "failures": [
+    {
+      "id": "eval_030",
+      "query": "How do Indian approval rules for biological resources relate to Nagoya Protocol access and benefit-sharing concepts?",
+      "jurisdiction": "all",
+      "expected": [
+        {
+          "document_id": "india:national/biological_diversity_act_2002",
+          "document_name": "Biological Diversity Act 2002",
+          "jurisdiction": "India",
+          "provision_type": "section",
+          "provision_number": "6",
+          "provision_title": "Application for intellectual property rights not to be made without approval of National"
+        },
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "6",
+          "provision_title": "ACCESS TO GENETIC RESOURCES"
+        },
+        {
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": "5",
+          "provision_title": "FAIR AND EQUITABLE BENEFIT-SHARING"
+        }
+      ],
+      "target_ranks": [
+        null,
+        7,
+        null
+      ],
+      "top10": [
+        {
+          "rank": 1,
+          "chunk_id": "df7383d9f205794085eeb0b064a7f1206baeb5a81166ab55ba36314d11d93991",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 2,
+          "provision_title": "USE OF TERMS",
+          "page_start": 5,
+          "page_end": 6,
+          "score": 0.08149801587301587
+        },
+        {
+          "rank": 2,
+          "chunk_id": "7bdf76d8a62d5a15f1152750f13fc8576f9307eaaabbcf06105f1f5926240259",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 10,
+          "provision_title": "GLOBAL MULTILATERAL BENEFIT-SHARING MECHANISM",
+          "page_start": 7,
+          "page_end": 8,
+          "score": 0.08041474654377881
+        },
+        {
+          "rank": 3,
+          "chunk_id": "c180025fdfa71d04c81f82918a5c34ed5269562833461be040d1c275c207fa06",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "",
+          "provision_number": "",
+          "provision_title": "",
+          "page_start": 1,
+          "page_end": 4,
+          "score": 0.07963125548726954
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cbe23d50feadc28e16f7dded9d8580d00412040124d0024089900dcfcda75c75",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 16,
+          "provision_title": "COMPLIANCE WITH DOMESTIC LEGISLATION OR",
+          "page_start": 9,
+          "page_end": 10,
+          "score": 0.0793236301369863
+        },
+        {
+          "rank": 5,
+          "chunk_id": "76eb2c2ad235706ce2dc7990a42c6ba5d140c29e4ea8f31779814e4addbb9998",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 32,
+          "provision_title": "SIGNATURE",
+          "page_start": 14,
+          "page_end": 15,
+          "score": 0.07854251012145749
+        },
+        {
+          "rank": 6,
+          "chunk_id": "7e64e09f6992463fadacb7b719cea283c2acb2ab4ebdd347a050a9a19fbadb41",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 18,
+          "provision_title": "COMPLIANCE WITH MUTUALLY AGREED TERMS",
+          "page_start": 10,
+          "page_end": 11,
+          "score": 0.07580752580752581
+        },
+        {
+          "rank": 7,
+          "chunk_id": "73bf4f419d682d4614f402cbfeca0b3dc3c1ff9cf9ce5d2d0dd8d1d35497e071",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 6,
+          "provision_title": "ACCESS TO GENETIC RESOURCES",
+          "page_start": 6,
+          "page_end": 7,
+          "score": 0.06639344262295083
+        },
+        {
+          "rank": 8,
+          "chunk_id": "26bf069fb12ade520ad0d94bb7a0ba2206bcbabba4530b1467d1c46df23f7a9f",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": null,
+          "provision_number": null,
+          "provision_title": null,
+          "page_start": 4,
+          "page_end": 5,
+          "score": 0.06587301587301587
+        },
+        {
+          "rank": 9,
+          "chunk_id": "c53877c3d38e21296e81de8b7f5406984c2a4aee3fe2f8f6bb8c59f93b2936dc",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 12,
+          "provision_title": "TRADITIONAL KNOWLEDGE ASSOCIATED WITH",
+          "page_start": 7,
+          "page_end": 7,
+          "score": 0.06515151515151515
+        },
+        {
+          "rank": 10,
+          "chunk_id": "68bc9a166485c011820bf9009dee600091c6f842b6b672ac84cba805de7cb6ef",
+          "document_id": "international:international/nagoya-protocol",
+          "document_name": "Nagoya Protocol",
+          "jurisdiction": "International",
+          "provision_type": "article",
+          "provision_number": 15,
+          "provision_title": "COMPLIANCE WITH DOMESTIC LEGISLATION",
+          "page_start": 9,
+          "page_end": 9,
+          "score": 0.06470588235294118
+        }
+      ]
+    }
+  ]
+}

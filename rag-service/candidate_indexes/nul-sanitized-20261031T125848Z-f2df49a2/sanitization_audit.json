@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-31T12:58:48.560582+00:00",
+  "candidate_directory": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\candidate_indexes\\nul-sanitized-20261031T125848Z-f2df49a2",
+  "collection_name": "ip_sakti_legal",
+  "transformation": "outgoing Chroma document text and embedding input = canonical chunk text with U+0000 removed via str.replace; no other text or metadata changes",
+  "canonical_chunks_path": "C:\\Users\\VINAYAKA M\\OneDrive\\Desktop\\mini_project\\rag-service\\data\\chunks.json",
+  "canonical_chunks_sha256_before": "42e8a14c1f97eac89e6028fd663d5d2e9d3ca37dce88f19d008764eca1d31c63",
+  "canonical_chunk_count": 1349,
+  "source_pdf_count": 19,
+  "source_pdf_sha256_before": {
+    "corpus/international/budapest_treaty.pdf": "aefecadb3b9f6330bc1b430d79f58a2e58b84a9e25dcc17ebbb37123490d7b05",
+    "corpus/international/cbd.pdf": "9acd3886bfb0b3c3a4d75b254b53dd4ab084d7ad59915f09f03bbe92cdc75517",
+    "corpus/international/hague_agreement.pdf": "bd3f3f15af991b9e61b7a0790838497f3049f3fa4996ad348941da0409575c16",
+    "corpus/international/madrid_protocol.pdf": "a78966dbaaf9c632ecf96495ce4952c72b7986b558ed10c39d65a94cc06f8db8",
+    "corpus/international/nagoya-protocol.pdf": "cdbd496bd361317d3b7237124177974bebac4cc800cf1974896bc19234cce856",
+    "corpus/international/pct.pdf": "5a406afd0c360749d3af10e3d403dd679e5c371a61004c799283543c61fd08a6",
+    "corpus/international/trips_agreement.pdf": "baa5beb7dda530e57dcf126779e4a0a53571460e19ed72a8aeb6e90500af5540",
+    "corpus/international/wipo_gratk_treaty_2024.pdf": "2f2b4f11cd98276de5dff0967b5d1ce924fbcd0909f73e6cc9bb54d93cdbc4bd",
+    "corpus/national/biological_diversity_act_2002.pdf": "729b07e581fe55319adcbf48fadb3b7d30293033a9a1550e70fc6adfb4ecb45f",
+    "corpus/national/biological_diversity_amendment_2023.pdf": "9582a31ee6cfd97d10d912f29f78bd2d36e2e89c7ab89d8237cedf9f030c9673",
+    "corpus/national/designs_act.pdf": "e392e657bba992c763a4442d5cfe2d3ca089682590ae5bfa35a35c0381adc79f",
+    "corpus/national/drugs_cosmetics_act.pdf": "0964955d32cd8306d26adc74b30dec8c542a4ed4287e654e73d76d17e2b9967e",
+    "corpus/national/drugs_magic_remedies_act.pdf": "9dd51c69a283ade12f47e84e33454f5cedfd27e197c9554de785eb55627ab74f",
+    "corpus/national/fssai_ayurveda_aahara_regulations_2022.pdf": "1ae8cfc632fad0a775316a84999a48adb6cf4b47d05bd4faa75f5190c511f699",
+    "corpus/national/gi_act.pdf": "049515caf90026ce4d4ce34bed2059d2502326f8795f9c1da2afa60fcaff12fc",
+    "corpus/national/patent-rules-2024.pdf": "66fe18fc1b6a3adec6d326213f6d2b8561d5ef43c0247cad9b061d680b27317c",
+    "corpus/national/patent_act_2024.pdf": "f5f5d5bdb94ca9505434bdcdbafdb0a6c7080566f8b9f90b1c560663a0766b0e",
+    "corpus/national/tkdl_background_2021.pdf": "d7f9c5c783b1beb6c6ad639c866393c4e1ef5d8cdf51f22139cd14f079f20a50",
+    "corpus/national/trademarks_act.pdf": "07aa58f3262a4d764c087577b2d49c7de0f4f49a392818aa9bc38c0dba620f1f"
+  },
+  "affected_chunk_count": 1,
+  "nul_characters_removed_total": 6,
+  "affected_chunks": [
+    {
+      "document_id": "india:national/tkdl_background_2021",
+      "chunk_index": 0,
+      "chunk_id": "ad395b09db35ee95496ad2c21d2c64cf2042d71bd0ea071b3d216bb0e4e3cb1e",
+      "nul_characters_removed": 6,
+      "original_payload_sha256": "6bcfca7de391b78283eb0af8999228fe739bbd4c62af6f5b6cbced57604a8868",
+      "sanitized_payload_sha256": "d506480aa7a788b68de32aa6cfaa1a280fa9d13ae09cfcf1233de576b30d807b",
+      "non_nul_characters_preserved_in_order": true,
+      "characters_before": 3349,
+      "characters_after": 3343
+    }
+  ],
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "expected_vector_dimension": 384,
+  "candidate_build_status": "built_integrity_verified_retrieval_partial",
+  "failure": "AttributeError: 'RustBindingsAPI' object has no attribute 'close'",
+  "validation": {
+    "collection_count": 1349,
+    "expected_count": 1349,
+    "ids_exact": true,
+    "metadata_exact": true,
+    "documents_match_nul_only_transform": true,
+    "candidate_document_nul_count": 0,
+    "fts_rows": 1349,
+    "fts_rows_with_nul": 0,
+    "vector_dimensions": [
+      384
+    ],
+    "collection_metadata": {
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "hnsw:space": "cosine"
+    },
+    "sqlite_quick_check": [
+      [
+        "ok"
+      ]
+    ],
+    "sqlite_integrity_check": [
+      [
+        "ok"
+      ]
+    ],
+    "sqlite_integrity_pass": true,
+    "candidate_database_sha256_before_readonly_checks": "b82225c1830c7412438e2bf95c1e07ca7ff4dab1eb889baa4ec4a0e04c9b3e0c",
+    "candidate_database_sha256_after_readonly_checks": "b82225c1830c7412438e2bf95c1e07ca7ff4dab1eb889baa4ec4a0e04c9b3e0c",
+    "sqlite_readonly_checks_hash_unchanged": true,
+    "canonical_chunks_sha256_after": "42e8a14c1f97eac89e6028fd663d5d2e9d3ca37dce88f19d008764eca1d31c63",
+    "canonical_chunks_unchanged": true,
+    "source_pdf_count_after": 19,
+    "source_pdfs_unchanged": true,
+    "retrieval_tests": [
+      {
+        "query": "What does Section 7 of the Biological Diversity Act, 2002 provide?",
+        "jurisdiction_filter": "India",
+        "expected_provision_retrieved": false,
+        "finding": "The main Act has no Section 7 record in canonical chunks; top results included Section 1 (pages 4-4), an untyped contents chunk (page 1), Section 64 (page 25), Section 24 (page 14), and Section 23 (pages 13-14)."
+      },
+      {
+        "query": "What does Rule 82 of the Patent Rules provide?",
+        "jurisdiction_filter": "India",
+        "expected_provision_text_retrieved": true,
+        "expected_provision_metadata_retrieved": false,
+        "finding": "A Rule 82 text hit was returned at rank 4 on page 52, but the chunk metadata is null for provision type/number/title. Another text hit is from pages 2-5 and carries unrelated Section 116 metadata."
+      },
+      {
+        "query": "What does Article 6 of the Convention on Biological Diversity address?",
+        "jurisdiction_filter": "International",
+        "expected_provision_retrieved": true,
+        "finding": "Expected CBD Article 6 is rank 1, document_id international:international/cbd, title Cbd, provision title general Measures for Conservation, pages 10-11."
+      }
+    ],
+    "retrieval_all_three_passed": false,
+    "retrieval_limitations": "Section 7 absent from canonical main-Act chunks; Patent Rules Rule 82 text lacks Rule-level metadata in canonical chunks.",
+    "client_shutdown_note": "Initial build process recorded a close exception; a later explicit public client close succeeded for record validation and retrieval validation. SQLite checks were performed after the client process closed."
+  }
+}
